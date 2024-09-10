@@ -1,0 +1,5 @@
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+num3 = float(num1) - float(num2)
+num4 = num3.is_integer()
+print("The difference between " + str(num1) + " and " + str(num2) + " is an interger? " + str(num4))
